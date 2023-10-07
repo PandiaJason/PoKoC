@@ -11,7 +11,7 @@ body {
   max-width: 50em;
   line-height: 1.5;
   padding: auto 1em;
-  background-color: #000000;
+  background-color: #fff;
   color: #e4e1e1;
   overflow-y: auto;
   min-height: 100vh; /* Set minimum height to viewport height */
@@ -19,7 +19,7 @@ body {
 
 p {
   font-size: 1.5em;
-  color: #e4e1e1;
+  color: #333333;
 }
 
 b {
@@ -34,7 +34,7 @@ h2 {
 h1,
 h2,
 strong {
-  color: #fff;
+  color: #000000;
 }
 
 /* .nav-card {
@@ -87,7 +87,7 @@ strong {
   flex: 1;
   max-width: 60%;
   background-color: transparent;
-  color: #ffffff;
+  color: #000000;
   padding: 0.75em;
   font-weight: bold;
   font-size: 1.2em;
@@ -100,7 +100,7 @@ strong {
 
 .support-input:focus {
   outline: none;
-  background-color: #15202b; /* Dark background color when focused */
+  background-color: #fff; /* Dark background color when focused */
 }
 
 .support-input::placeholder {
@@ -108,7 +108,7 @@ strong {
 }
 
 .support-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px #15202b inset !important; /* Dark background color when autofilled */
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important; /* Dark background color when autofilled */
 }
 
 .support-input::-ms-clear {
@@ -178,8 +178,8 @@ strong {
 }
 
 .card {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #333333;
   padding: 1.5em;
   border-radius: 14px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);

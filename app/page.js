@@ -146,7 +146,7 @@ export default function JSNcrypts() {
   return (
     <>
       <div className="connect-wrapper">
-        <h1>JSNcrypts</h1>
+        <h1>PoKoC CMS</h1>
         <p className="connect-text"></p>
         <button onClick={handleConnectMetaMask} className="connect-button">
           {connectedAddress ? "Loading" : "Click Me"}
